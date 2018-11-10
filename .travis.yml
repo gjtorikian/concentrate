@@ -1,0 +1,21 @@
+sudo: false
+
+language: go
+
+git:
+  depth: 10
+
+go:
+  - 1.7
+  - 1.8
+  - master
+
+matrix:
+  allow_failtures:
+    go: master
+
+install:
+  - go get -v github.com/Masterminds/glide
+  - script/bootstrap
+
+script: script/test

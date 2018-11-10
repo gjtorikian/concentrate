@@ -7,7 +7,7 @@ set -e
 
 script/test
 
-version="$(go run flint.go --version | grep 'flint version ' | awk '{print $3}')"
+version="$(go run concentrate.go --version | grep 'concentrate version ' | awk '{print $3}')"
 [ -n "$version" ] || exit 1
 
 echo $version

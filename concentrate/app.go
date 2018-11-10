@@ -4,8 +4,6 @@ import (
 	"github.com/codegangsta/cli"
 
 	"fmt"
-	"os"
-	"runtime"
 )
 
 func NewApp() *cli.App {
@@ -30,7 +28,5 @@ func NewApp() *cli.App {
 type runFunc func(*cli.Context)
 
 var run = func(c *cli.Context) {
-  xs := []float64{1,2,3,4}
-  avg := math.Average(xs)
-  fmt.Println(avg)
+  fmt.Println("Hello, World")
 }

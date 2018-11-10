@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gjtorikian/concetrate/concentrate"
+	"github.com/gjtorikian/concentrate/concentrate"
 )
 
 func main() {
-	app := concetrate.NewApp()
+	app := concentrate.NewApp()
 
 	if err := app.Run(os.Args); err != nil {
 		fmt.Println(err)

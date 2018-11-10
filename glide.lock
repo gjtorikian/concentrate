@@ -1,0 +1,12 @@
+hash: 3d2e9b391a8cb89647202ca80fd84ba3ac27fb89f44fdbeaa009c3d33bef0f24
+updated: 2018-11-10T10:58:29.016893-05:00
+imports:
+- name: github.com/codegangsta/cli
+  version: cfb38830724cc34fedffe9a2a29fb54fa9169cd1
+- name: github.com/fatih/color
+  version: 5b77d2a35fb0ede96d138fc9a99f5c9b6aef11b4
+testImports:
+- name: github.com/stretchr/testify
+  version: f35b8ab0b5a2cef36673838d662e249dd9c94686
+  subpackages:
+  - assert
